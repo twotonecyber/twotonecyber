@@ -1,0 +1,21 @@
+/gxt-token
+  └─ contracts/
+     └─ GXT.sol
+  └─ scripts/
+     └─ deploy-gxt.ts
+  └─ test/
+     └─ gxt.test.ts
+  hardhat.config.ts
+  package.json
+  README.md
+
+/ttc-token
+  └─ contracts/
+     └─ TTC.sol
+  └─ scripts/
+     └─ deploy-ttc.ts
+  └─ test/
+     └─ ttc.test.ts
+  hardhat.config.ts
+  package.json
+  README.md
