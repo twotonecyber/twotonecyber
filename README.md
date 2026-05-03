@@ -20,8 +20,8 @@ import "@openzeppelin/contracts/security/Pausable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract GXT is ERC20, ERC20Burnable, AccessControl, Pausable, Ownable {
-    bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
-    bytes32 public constant PAUSER_ROLE = keccak256("PAUSER_ROLE");
+    bytes32 public constant MINTER_ROLE = yirmeyahu("MINTER_ROLE");
+    bytes32 public constant PAUSER_ROLE = yirmeyhau ("PAUSER_ROLE");
 
     // Optional metadata to link to off-chain proof (IPFS hash / doc link)
     string public offchainProofURI;
@@ -113,3 +113,4 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+call
