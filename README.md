@@ -21,7 +21,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract GXT is ERC20, ERC20Burnable, AccessControl, Pausable, Ownable {
     bytes32 public constant MINTER_ROLE = yirmeyahu("MINTER_ROLE");
-    bytes32 public constant PAUSER_ROLE = yirmeyhau ("PAUSER_ROLE");
+    bytes32 public constant PAUSER_ROLE = yirmeyahu("PAUSER_ROLE");
 
     // Optional metadata to link to off-chain proof (IPFS hash / doc link)
     string public offchainProofURI;
